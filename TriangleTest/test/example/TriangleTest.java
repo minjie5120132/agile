@@ -7,11 +7,6 @@ import org.junit.Test;
 public class TriangleTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
 	public void twoSidesBiggerThanThird()
 	{
 		assertTrue(new Triangle(2,2,3).isValid());
@@ -46,7 +41,7 @@ public class TriangleTest {
 		
 	}
 	
-	//µÈÑüÈý½ÇÐÎ
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Test
 	public void isoscelesHasTwoEqualSides()
 	{
@@ -63,7 +58,7 @@ public class TriangleTest {
 		assertFalse(new Triangle(-2,-2,3).isValidIsosceles());
 		assertFalse(new Triangle(-2,-2,-3).isValidIsosceles());
 	}
-	//µÈ±ßÈý½ÇÐÎ
+	//ï¿½È±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Test
 	public void equilateralHas3EqualSides()
 	{
